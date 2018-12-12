@@ -71,7 +71,7 @@ Piston is the external library used for the snake game in the real-app section o
 
 >The ability to perform meta-programming such as macros
 
-	Rust is capable of meta programming. It has full support of macros allowing users to use a short hand while coding. 
+	Rust is capable of meta programming. It has support of macros allowing users to use a short hand while coding. 
 	More information can be found here https://doc.rust-lang.org/1.30.0/book/first-edition/macros.html
 
 >Symbol resolution and its support for closure
@@ -87,8 +87,8 @@ Piston is the external library used for the snake game in the real-app section o
 
 >Functional programming constructs either as part of the language or supported by the standard library of the runtime.
 
-	Rust has a lot of options for functional programming. In the standard library rust has functional programming support 
-	of closures, iterators, and IO. More information can be found here:
+	Rust has a lot of options for functional programming. In the standard library rust has
+	functional programming support of closures, iterators, and IO. More information can be found here:
 	https://doc.rust-lang.org/1.19.0/book/second-edition/ch13-00-functional-features.html
 
 >Its type system: static vs dynamic types
@@ -104,6 +104,6 @@ Piston is the external library used for the snake game in the real-app section o
 
 	Weaknesses
 		-Being so new rust is still experiencing some bugs
-		-Rust is very explicit, as opposed to other languages that may be more implicit. Users must be very clear in the 
-			instruction or their code may not work as intended
+		-Rust is very explicit, as opposed to other languages that may be more implicit. 
+			Users must be very clear in the instruction or their code may not work as intended
 		-Rust code can get very lengthy in comparison to other languages such as python
