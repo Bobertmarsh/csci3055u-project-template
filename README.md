@@ -71,19 +71,25 @@ Piston is the external library used for the snake game in the real-app section o
 
 >The ability to perform meta-programming such as macros
 
-	Rust is capable of meta programming. It has full suppor tof macros allowing users to use a short hand while coding. More information can be found here https://doc.rust-lang.org/1.30.0/book/first-edition/macros.html
+	Rust is capable of meta programming. It has full support of macros allowing users to use a short hand while coding. 
+	More information can be found here https://doc.rust-lang.org/1.30.0/book/first-edition/macros.html
 
 >Symbol resolution and its support for closure
 
-	Rusts closure support allows users to create anonymous functions and either save those functions to a variable, or pass them as an argument to other functions. The closure can be created at one part of the code and then can be called to evaluate in a different context later. Documentation on Rusts use of closures can be found here:  https://doc.rust-lang.org/1.19.0/book/second-edition/ch13-01-closures.html
+	Rusts closure support allows users to create anonymous functions and either save those functions to a variable, 
+	or pass them as an argument to other functions. The closure can be created at one part of the code and then can 
+	be called to evaluate in a different context later. Documentation on Rusts use of closures can be found here:  
+	https://doc.rust-lang.org/1.19.0/book/second-edition/ch13-01-closures.html
 
 >Scoping rules supported by the language: lexical vs dynamic scoping
 
-	Rust runs in a lexical scope, meaning that all values have a owner where the scope of the value and owner are the same.
+	Rust runs in a lexical scope, meaning that all values have a owner they share a scope with
 
 >Functional programming constructs either as part of the language or supported by the standard library of the runtime.
 
-	Rust has a lot of options for functional programming. In the standard library rust has functional programming support of closures, iterators, and IO. More information can be found at https://doc.rust-lang.org/1.19.0/book/second-edition/ch13-00-functional-features.html
+	Rust has a lot of options for functional programming. In the standard library rust has functional programming support 
+	of closures, iterators, and IO. More information can be found here:
+	https://doc.rust-lang.org/1.19.0/book/second-edition/ch13-00-functional-features.html
 
 >Its type system: static vs dynamic types
 
@@ -98,5 +104,6 @@ Piston is the external library used for the snake game in the real-app section o
 
 	Weaknesses
 		-Being so new rust is still experiencing some bugs
-		-Rust is very explicit, as opposed to other languages that may be more implicit. Users must be very clear in the instruction or their code may not work as intended
+		-Rust is very explicit, as opposed to other languages that may be more implicit. Users must be very clear in the 
+			instruction or their code may not work as intended
 		-Rust code can get very lengthy in comparison to other languages such as python
